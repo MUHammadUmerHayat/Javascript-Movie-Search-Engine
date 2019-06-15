@@ -6,7 +6,9 @@ Fetches Movies details from iMDB database and shows it's details with a link to 
 
 It uses http://www.omdbapi.com/ API with a limited requests.
 
-This project was created as part of a learning the using data from API's in JSON format. The code uses XMLHttpRequest to fetch data from the API.
+This project was created as part of a learning the using data from API's in JSON format. 
+
+Fetch and Jquery Ajax method are some of the other methods to get data from API but XMLHttpRequest was used in this script just to learn about it.
 
 # Test IT
 
