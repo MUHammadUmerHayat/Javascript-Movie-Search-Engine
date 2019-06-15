@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <title>IMDB Api Test Project</title>
+
+    <style>
+        .center_div {
+            margin: auto;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+            <h5 class="my-0 mr-md-auto font-weight-normal">iMDB Movie Search</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="#">Home</a>
+            </nav>
+            <a class="btn btn-outline-primary" href="#">Contact
+                Me</a>
+        </div>
+
+    </header>
+
+
+    <main>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class=text-center>Information:</h4>
+                    <p class="text-center information md-5">
+                        This script uses API from http://www.omdbapi.com which let's you search movies and tv shows
+                        from iMDB database. The results are returned in JSON format. You can test this script by typing
+                        a Movie OR TV show name in the search bar below. It will only return results if that movie is
+                        available on
+                        iMDB.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 ">
+                    <!-- Search form -->
+                    <div class="form-inline active-cyan-3 active-cyan-4 center_div ">
+                        <input class="form-control form-control-sm ml-3 w-75" id="search" placeholder="Type the name of the movies or tv shows you want to search!"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success btn-rounded btn-sm my-0" onclick="newSearch();">Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5" id="row">
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
