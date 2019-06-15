@@ -10,6 +10,6 @@ This project was created as part of a learning the using data from API's in JSON
 
 Fetch and Jquery Ajax method are some of the other methods to get data from API but XMLHttpRequest was used in this script just to learn about it.
 
-# Test IT
+# Test it
 
 To test this script just download both index.html and script.js files and keep them in the same folder. Then, open index.html and follow the instructions.
